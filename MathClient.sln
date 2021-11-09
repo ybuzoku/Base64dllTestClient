@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathClient", "MathClient.vcxproj", "{76FC4D27-5B16-4527-B557-77A8A3E436B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		ShipIt!|x64 = ShipIt!|x64
+		ShipIt!|x86 = ShipIt!|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76FC4D27-5B16-4527-B557-77A8A3E436B4}.Debug|x64.ActiveCfg = Debug|x64
+		{76FC4D27-5B16-4527-B557-77A8A3E436B4}.Debug|x64.Build.0 = Debug|x64
+		{76FC4D27-5B16-4527-B557-77A8A3E436B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{76FC4D27-5B16-4527-B557-77A8A3E436B4}.Debug|x86.Build.0 = Debug|Win32
+		{76FC4D27-5B16-4527-B557-77A8A3E436B4}.Release|x64.ActiveCfg = Release|x64
+		{76FC4D27-5B16-4527-B557-77A8A3E436B4}.Release|x64.Build.0 = Release|x64
+		{76FC4D27-5B16-4527-B557-77A8A3E436B4}.Release|x86.ActiveCfg = Release|Win32
+		{76FC4D27-5B16-4527-B557-77A8A3E436B4}.Release|x86.Build.0 = Release|Win32
+		{76FC4D27-5B16-4527-B557-77A8A3E436B4}.ShipIt!|x64.ActiveCfg = ShipIt!|x64
+		{76FC4D27-5B16-4527-B557-77A8A3E436B4}.ShipIt!|x64.Build.0 = ShipIt!|x64
+		{76FC4D27-5B16-4527-B557-77A8A3E436B4}.ShipIt!|x86.ActiveCfg = ShipIt!|Win32
+		{76FC4D27-5B16-4527-B557-77A8A3E436B4}.ShipIt!|x86.Build.0 = ShipIt!|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D585AAB-8F13-4AA3-AAE3-5BADF3B0B629}
+	EndGlobalSection
+EndGlobal
