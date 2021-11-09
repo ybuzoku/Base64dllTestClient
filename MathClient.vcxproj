@@ -109,11 +109,11 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+    <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ShipIt!|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -178,9 +178,9 @@
       <AdditionalLibraryDirectories>$(IntDir);$(OutDir)..\..\Base64Externals;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /y /d ".\..\Base64Math\$(IntDir)Base64Math.dll" "$(OutDir)"
-xcopy /y /d ".\..\Base64Math\$(IntDir)Base64Math.lib" "$(OutDir)"
-xcopy /y /d ".\..\Base64Math\Base64Math.h" "$(OutDir)\..\.."</Command>
+      <Command>xcopy /y /d ".\Base64Externals\Base64Math.dll" "$(OutDir)"
+xcopy /y /d ".\Base64Externals\Base64Math.lib" "$(OutDir)"
+xcopy /y /d ".\Base64Externals\Base64Math.h" "."</Command>
       <Message>Copies files from the DLL dev directory</Message>
     </PostBuildEvent>
     <PreBuildEvent>
