@@ -3,6 +3,10 @@
 
 int main()
 {
+    /*****************************************************
+        Note: Inputs 1 and 2 MUST be exactly 8 chars long.
+        This will be addressed shortly. 
+    ******************************************************/
     char* input1 = (char*)"Test3$@e";
     char* input2 = (char*)"OneTwoAz";
     const int numberOfReturnBytes = 9;
